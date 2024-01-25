@@ -78,6 +78,17 @@ header .star#star3, footer .star#star3 {
     animation-delay: 1.5s;
 }
 
+/* ... existing styles ... */
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
+
 /* Add more stars as needed with unique positions and animation delays */
 
 
