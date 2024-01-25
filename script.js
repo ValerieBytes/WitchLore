@@ -8,5 +8,5 @@ document.addEventListener('mousemove', (event) => {
 
     setTimeout(() => {
         star.remove();
-    }, 500); // Adjust the duration as needed
+    }, 200); // Adjust the duration as needed
 });
