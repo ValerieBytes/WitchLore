@@ -7,5 +7,5 @@ document.addEventListener('mousemove', (event) => {
 
     setTimeout(() => {
         trail.remove();
-    }, 500); // trail disappears after 500 milliseconds
+    }, 1000); // trail disappears after 500 milliseconds
 });
