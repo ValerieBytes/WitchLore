@@ -87,6 +87,25 @@ header .star#star3, footer .star#star3 {
     }
 }
 
+header, footer {
+    color: #333; /* Dark text color for visibility */
+}
+
+.night-sky {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent dark background for stars */
+    color: white;
+}
+
+.star {
+    width: 5px; /* Increased size for visibility */
+    height: 5px; /* Increased size for visibility */
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    animation: twinkle 2s infinite ease-in-out;
+}
+
 /* Add more stars as needed with unique positions and animation delays */
 
 
