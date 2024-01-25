@@ -17,5 +17,5 @@ document.addEventListener('mousemove', (event) => {
     setTimeout(() => {
         star.remove();
         stars = stars.filter(item => item !== star);
-    }, 1000); // Stars disappear after 1 second
+    }, 2000); // Stars disappear after 1 second
 });
