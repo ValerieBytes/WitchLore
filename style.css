@@ -41,23 +41,23 @@ footer {
     padding: 10px 0;
 }
 
-/* Existing styles for body, .night-sky, .star, @keyframes twinkle */
-
-header.night-sky, footer.night-sky {
+/* Night Sky and Twinkling Stars Styles */
+.night-sky {
     position: relative;
-    color: white; /* Adjust text color for visibility */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent dark background for stars */
+    color: white;
 }
 
 .star {
-    width: 2px;
-    height: 2px;
+    width: 5px; /* Increased size for visibility */
+    height: 5px; /* Increased size for visibility */
     background-color: white;
     position: absolute;
     border-radius: 50%;
     animation: twinkle 2s infinite ease-in-out;
 }
 
-/* Add specific positions and animation delays for stars in the header and footer */
+/* Star positions and animation delays for header and footer */
 header .star#star1, footer .star#star1 {
     top: 20%;
     left: 30%;
@@ -76,8 +76,7 @@ header .star#star3, footer .star#star3 {
     animation-delay: 1.5s;
 }
 
-/* ... existing styles ... */
-
+/* Twinkle animation keyframes */
 @keyframes twinkle {
     0%, 100% {
         opacity: 1;
@@ -86,27 +85,3 @@ header .star#star3, footer .star#star3 {
         opacity: 0.2;
     }
 }
-
-header, footer {
-    color: #333; /* Dark text color for visibility */
-}
-
-.night-sky {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent dark background for stars */
-    color: white;
-}
-
-.star {
-    width: 5px; /* Increased size for visibility */
-    height: 5px; /* Increased size for visibility */
-    background-color: white;
-    position: absolute;
-    border-radius: 50%;
-    animation: twinkle 2s infinite ease-in-out;
-}
-
-/* Add more stars as needed with unique positions and animation delays */
-
-
-/* Continue adding more stars with unique positions and animation delays */
