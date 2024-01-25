@@ -10,6 +10,16 @@ body.custom-cursor, body.custom-cursor * {
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewport="0 0 24 24" style="fill:black;"><path d="M12 .587l3.668 7.425 8.332 1.212-6.001 5.85 1.416 8.26L12 18.896l-7.415 3.938 1.416-8.26-6.001-5.85 8.332-1.212z"/></svg>'), auto;
 }
 
+.trail {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: black;
+    pointer-events: none;
+}
+
+
 header {
     background: black;
     padding: 10px 0;
