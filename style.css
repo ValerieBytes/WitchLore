@@ -12,12 +12,17 @@ body.custom-cursor, body.custom-cursor * {
 
 .trail {
     position: absolute;
-    height: 5px;
-    width: 5px;
-    border-radius: 50%;
-    background: black;
     pointer-events: none;
+    width: 10px; /* Adjust to match the size of the cursor star */
+    height: 10px; /* Adjust to match the size of the cursor star */
 }
+
+.trail svg {
+    fill: black; /* Adjust the color as needed */
+    width: 100%;
+    height: 100%;
+}
+
 
 
 header {
