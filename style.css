@@ -13,8 +13,8 @@ body.custom-cursor, body.custom-cursor * {
 .trail {
     position: absolute;
     pointer-events: none;
-    width: 10px; /* Adjust to match the size of the cursor star */
-    height: 10px; /* Adjust to match the size of the cursor star */
+    width: 24px; /* Adjust to match the size of the cursor star */
+    height: 24px; /* Adjust to match the size of the cursor star */
 }
 
 .trail svg {
@@ -22,7 +22,6 @@ body.custom-cursor, body.custom-cursor * {
     width: 100%;
     height: 100%;
 }
-
 
 
 header {
